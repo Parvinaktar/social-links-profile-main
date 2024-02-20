@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  color: white;
+}
+.profile-wrapper {
+  height: 100%;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-card {
+  width: 400px;
+  padding: 15px;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.my-image {
+  height: 80px;
+  width: 80px;
+}
+.my-image img {
+  border-radius: 50px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
