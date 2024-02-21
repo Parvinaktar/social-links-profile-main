@@ -78,3 +78,11 @@ body {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 8%);
 }
+.profile-card button a {
+  color: white;
+  text-decoration: none;
+  transition: all ease-in 0.3s;
+}
+.profile-card button:hover a {
+  color: hsl(0, 0%, 8%);
+}
